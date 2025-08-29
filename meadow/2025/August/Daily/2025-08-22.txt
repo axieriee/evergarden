@@ -1,0 +1,12 @@
+=== 2025-08-22 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                                     Notes                                                     |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------------------------------------------------------------------------ |
+|  NVDA  | Call  |  0.57 | 0.62 |    2 |   +5 | Use the Stop Loss & Profit properly. Using the trailing technique                                             |
+|  NVDA  | Call  |  0.76 | 0.85 |    1 |   +9 | Same as the top. Catching a trend up and following it.                                                        |
+|  NVDA  |  Put  |  0.81 | 0.77 |    1 |   -4 | Made the mistake of holding for too long. Should of taken the profit a lot ealier / Didnt read chart properly |
+|  AAPL  |  Put  |  0.76 | 0.73 |    2 |   -3 | Held onto for too long. Causing the stop loss to reach too low and cancel.                                    |
+
+Day PnL: +8.32
+Market Sentiment: Unknown
+Key Lesson: Great use of stop loss & profit. Be sure to exit trades at around 5-10% reaching too high without conirmation isnt the best.

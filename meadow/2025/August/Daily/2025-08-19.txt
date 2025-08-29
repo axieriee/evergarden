@@ -1,0 +1,11 @@
+=== 2025-08-19 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                   Notes                                   |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------------------------------------ |
+|  AMD   |  Put  |  1.66 | 2.19 |    1 |  +53 | Phenomanal catch on market open. Overnight was heavy towards bearish.     |
+|  SPY   | Call  |  0.35 | 0.32 |    1 |   -3 | Fell for a chart fake out. Didnt wait for the second candle confirmation. |
+|  TSLA  | Call  |  2.17 | 2.26 |    1 |   +9 | Good end of day trade. Caught TSLA rising during the afternoon rush.      |
+
+Day PnL: +57.13
+Market Sentiment: Unknown
+Key Lesson: Amazing takes duing market open. Got caught lacking by the fake out costed a bit a P&L but overall a very good day.
