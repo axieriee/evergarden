@@ -7,7 +7,7 @@ $stamp = $today.ToString("yyyy-MM-dd")
 $root   = $PSScriptRoot
 $monthDir = Join-Path $root "$year\$month"
 $dailyDir = Join-Path $monthDir "Daily"
-$template = Join-Path $root "Templates\01_Daily_PnL_Table_Template.txt"
+$template = Join-Path $root "meadows/patterns\01_Daily_PnL_Table_Template.txt"
 $dest     = Join-Path $dailyDir "$stamp.txt"
 
 New-Item -ItemType Directory -Force -Path $dailyDir | Out-Null
