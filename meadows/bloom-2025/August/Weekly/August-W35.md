@@ -3,13 +3,16 @@
 **Dates:** Aug 25, 2025 → Aug 29, 2025
 
 ## Highlights
-- 
+- This week being an almost flat day into the slight positive. +.85% is really good for being the second week. Filled with many mistakes and thats okay!
+- Made mistakes that can be learned from and thats a highlight of this week. Mistakes are better fixed early!!
 
 ## Lessons
-- 
+- Take notes of my short-comings in trading: Mechanical entrances and exits. Watch out for whiplashes / sudden reversals.
+- Make use of stop losses / profit more to prevent the top two issues.
 
 ## Next Week Seeds
-- 
+- Next week being the first week of September. Want to prove to myself that this wasnt just a fluke. I can infact trade everyday and lead with a +2% for each week.
+- Beliving in myself that I can do it. Feeling good about myself too!!
 
 ## Days
 ### Included Dailies
