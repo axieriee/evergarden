@@ -1,0 +1,13 @@
+=== 2025-08-20 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                               Notes                                                |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------------------------------------------------------------- |
+|  AMD   |  Put  |  1.76 | 2.13 |    1 |  +37 | Really good initial jump on market open.                                                           |
+|  AMD   |  Put  |  1.55 | 1.80 |    1 |  +25 | Another really good catch very early on. Post 5 min orb                                            |
+|  AMD   |  Put  |  1.28 | 1.40 |    1 |  +12 | Following the trade before to catch the rest of the move.                                          |
+|  AMD   |  Put  |  0.71 | 0.74 |    1 |   +3 | Catching another small move. Didnt need to do this one but took the opportunity for the small gain |
+
+
+Day PnL: +76.56
+Market Sentiment: Unknown
+Key Lesson: Amazing trades. Followed setups, places two really good stops (3rd & 4th trades). Slight overtrade but it worked out.
