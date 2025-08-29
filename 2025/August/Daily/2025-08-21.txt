@@ -1,0 +1,12 @@
+=== 2025-08-21 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |     Notes     |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------ |
+|  AMD   |  Put  |  1.64 | 1.42 |    1 |  -22 | Awful         |
+|  TSLA  | Call  |  2.45 | 1.95 |    1 |  -50 | Revenge Trade |
+|  NVDA  |  Put  |  1.49 | 1.68 |    1 |  +19 | Revenge Trade |
+|  NVDA  |  Put  |  0.33 | 0.25 |    1 |   -8 | Revenge Trade |
+
+Day PnL: -64.44
+Market Sentiment: Unknown
+Key Lesson: DO NOT over trade like that just to recover. Should of stopped at that the first AMD trade. -18.35% by the end. 

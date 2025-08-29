@@ -1,7 +1,4 @@
-=== {{WEEK_LABEL}} ({{START_DATE}} – {{END_DATE}}) ===
-
-Days:
-{{DAYS_BLOCK}}
+=== {{WEEK_LABEL}} ({{START_DATE}} - {{END_DATE}}) ===
 
 Stats:
 - Total Trades:
@@ -11,3 +8,6 @@ Stats:
 Best Trade:
 Worst Trade:
 Goal for Next Week:
+
+
+

@@ -36,72 +36,149 @@ $weeklyFile = Join-Path $weeklyDir ("Week_{0}-W{1:D2}.txt" -f $year, $weekNum)
 if (-not (Test-Path $dailyDir))  { Write-Host "Missing Daily folder: $dailyDir";  exit 1 }
 if (-not (Test-Path $weeklyFile)){ Write-Host "Missing weekly file. Run .\new_weekly.ps1 first."; exit 1 }
 
-# Helper: extract a block of lines between start & stop predicates
+# Helpers
 function Get-TableBlock([string[]]$lines, [int]$startIdx){
   $acc = New-Object System.Collections.Generic.List[string]
   for ($i = $startIdx; $i -lt $lines.Count; $i++){
     $line = $lines[$i]
-    if ($line -match '^\s*$') { break }           # stop at blank line after table
-    if ($line -notmatch '^\|') { break }          # stop when rows no longer start with |
+    if ($line -match '^\s*$') { break }      # stop at blank line
+    if ($line -notmatch '^\s*\|') { break }  # stop if not a table row
     $acc.Add($line)
   }
   return $acc -join [Environment]::NewLine
 }
 
-# Build weekly section with full tables
-$weekHeader = "=== Week $weekNum ($($weekStart.ToString('MMM d')) – $($weekEnd.ToString('MMM d, yyyy'))) ==="
-$section = New-Object System.Collections.Generic.List[string]
-$section.Add($weekHeader)
-$section.Add("")
+function Split-Cells([string]$row){
+  # returns trimmed cell array from a pipe row
+  $cells = ($row -split '\|') | ForEach-Object { $_.Trim() }
+  if ($cells.Count -ge 2) { return $cells[1..($cells.Count-2)] }
+  return @()
+}
+
+function Convert-ToNumber([string]$s){
+  if (-not $s) { return $null }
+  $t = $s -replace '[\s,$+]',''  # drop spaces, commas, $, +
+  if ($t -match '^-?\d+(\.\d+)?$'){ return [double]$t }
+  return $null
+}
+
+# Build detailed per-day block (NO "Days:" header)
+$detail = New-Object System.Collections.Generic.List[string]
+
+# Weekly stats
+$totalTrades = 0
+$wins = 0
+$losses = 0
+$netPnL = 0.0
 
 for ($i=0; $i -lt 5; $i++) {
   $d     = $weekStart.AddDays($i)
   $stamp = $d.ToString('yyyy-MM-dd')
   $f     = Join-Path $dailyDir "$stamp.txt"
 
+  $detail.Add("--- $stamp ---")
   if (-not (Test-Path $f)) {
-    $section.Add("--- $stamp ---")
-    $section.Add("(no daily file)")
-    $section.Add("")
+    $detail.Add("(no daily file)")
+    $detail.Add("")
     continue
   }
 
   $lines = Get-Content $f
 
-  # Find table header line
-  $tableHeaderIdx = ($lines | Select-String -Pattern '^\|\s*Symbol\s*\|' -SimpleMatch).LineNumber
-  if ($tableHeaderIdx) { $tableHeaderIdx-- } # LineNumber is 1-based
+  # Find header row (allow "Symbol" or "Ticker")
+  $hdrMatch = ($lines | Select-String -Pattern '^\s*\|\s*(Symbol|Ticker)\s*\|' -CaseSensitive:$false | Select-Object -First 1)
+  $tableHeaderIdx = -1
+  if ($hdrMatch) { $tableHeaderIdx = $hdrMatch.LineNumber - 1 }  # 1-based to 0-based
 
-  # Grab the table block (header + separator + rows) until blank line
-  $tableBlock = ""
+  $pnlColIndex = $null
+
   if ($tableHeaderIdx -ge 0) {
+    # Grab table block to paste
     $tableBlock = Get-TableBlock -lines $lines -startIdx $tableHeaderIdx
-  }
+    if ($tableBlock) { $detail.Add($tableBlock) } else { $detail.Add("(no trade table found)") }
 
-  # Grab Day PnL / Market Sentiment / Key Lesson lines
-  $pnl    = ($lines | Select-String -Pattern '^\s*Day PnL:\s*.*$').Line
-  if (-not $pnl) { $pnl = "Day PnL: (fill in)" }
+    # Determine PnL column index from header cells for stats
+    $headerCells = Split-Cells $lines[$tableHeaderIdx]
+    for ($c=0; $c -lt $headerCells.Count; $c++){
+      if ($headerCells[$c] -match '^\s*PnL\s*$'){ $pnlColIndex = $c; break }
+    }
 
-  $sent   = ($lines | Select-String -Pattern '^\s*Market Sentiment:\s*.*$').Line
-  if (-not $sent) { $sent = "Market Sentiment: (fill in)" }
+    # Walk data rows (skip header + separator line)
+    for ($r = $tableHeaderIdx + 2; $r -lt $lines.Count; $r++){
+      $row = $lines[$r]
+      if ($row -match '^\s*$') { break }
+      if ($row -notmatch '^\s*\|') { break }
+      $cells = Split-Cells $row
+      if ($cells.Count -eq 0) { break }
 
-  $lesson = ($lines | Select-String -Pattern '^\s*Key Lesson:\s*.*$').Line
-  if (-not $lesson) { $lesson = "Key Lesson: (fill in)" }
+      $pnlStr = $null
+      if ($null -ne $pnlColIndex -and $pnlColIndex -lt $cells.Count){
+        $pnlStr = $cells[$pnlColIndex]
+      } elseif ($cells.Count -ge 2) {
+        # fallback: second-to-last cell
+        $pnlStr = $cells[$cells.Count-2]
+      }
 
-  # Append one mini-section per day
-  $section.Add("--- $stamp ---")
-  if ($tableBlock) {
-    $section.Add($tableBlock)
+      $pnl = Parse-Number $pnlStr
+      if ($null -ne $pnl){
+        $totalTrades++
+        $netPnL += $pnl
+        if ($pnl -gt 0) { $wins++ }
+        elseif ($pnl -lt 0) { $losses++ }
+      }
+    }
   } else {
-    $section.Add("(no trade table found)")
+    $detail.Add("(no trade table found)")
   }
-  $section.Add($pnl)
-  $section.Add($sent)
-  $section.Add($lesson)
-  $section.Add("")  # blank line between days
+
+  # Summary lines from daily
+  $pnlLine = ($lines | Select-String -Pattern '^\s*Day PnL:\s*.*$' | Select-Object -First 1).Line
+  if (-not $pnlLine) { $pnlLine = "Day PnL: (fill in)" }
+
+  $sentLine = ($lines | Select-String -Pattern '^\s*Market Sentiment:\s*.*$' | Select-Object -First 1).Line
+  if (-not $sentLine) { $sentLine = "Market Sentiment: (fill in)" }
+
+  $lessonLine = ($lines | Select-String -Pattern '^\s*Key Lesson:\s*.*$' | Select-Object -First 1).Line
+  if (-not $lessonLine) { $lessonLine = "Key Lesson: (fill in)" }
+
+  $detail.Add($pnlLine)
+  $detail.Add($sentLine)
+  $detail.Add($lessonLine)
+  $detail.Add("")  # blank line between days
 }
 
-# Append to weekly file (do not overwrite what you already wrote)
-Add-Content -Path $weeklyFile -Value ($section -join [Environment]::NewLine)
+$newBlock = ($detail -join [Environment]::NewLine)
 
-Write-Host "Updated $weeklyFile with full daily tables for $($weekStart.ToString('yyyy-MM-dd')) → $($weekEnd.ToString('yyyy-MM-dd'))"
+# Read weekly file
+$contents = Get-Content $weeklyFile -Raw
+
+# Replace {{DAYS_BLOCK}} or hint text if present (NO "Days:" label)
+if ($contents -match [regex]::Escape("{{DAYS_BLOCK}}")) {
+  $contents = $contents.Replace("{{DAYS_BLOCK}}", $newBlock)
+  Write-Host "Replaced {{DAYS_BLOCK}}"
+} elseif ($contents -match [regex]::Escape("(run weekly_draft.ps1 to fill this)")) {
+  $contents = $contents.Replace("(run weekly_draft.ps1 to fill this)", $newBlock)
+  Write-Host "Replaced hint text"
+} else {
+  # If neither placeholder is present, append at end
+  $contents = $contents + [Environment]::NewLine + $newBlock
+  Write-Host "Appended detailed block at end"
+}
+
+# Compute win%
+$winPct = if ($totalTrades -gt 0) { [math]::Round(($wins / $totalTrades) * 100, 2) } else { 0 }
+
+# Replace the Stats block in the weekly file (from "Stats:" until next blank line)
+$statsBlock = @(
+  "Stats:",
+  "- Total Trades: $totalTrades",
+  "- Win%: $winPct%",
+  "- Net PnL: $netPnL"
+) -join [Environment]::NewLine
+
+$contents = [regex]::Replace($contents, "Stats:[\s\S]*?(?=\r?\n\r?\n|$)", $statsBlock)
+
+# Save
+Set-Content -Path $weeklyFile -Value $contents -Encoding UTF8
+
+Write-Host ("Updated {0} with details and stats for {1} -> {2}" -f $weeklyFile, $weekStart.ToString('yyyy-MM-dd'), $weekEnd.ToString('yyyy-MM-dd'))
