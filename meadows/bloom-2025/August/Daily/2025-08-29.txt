@@ -1,0 +1,10 @@
+=== 2025-08-29 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                                         Notes                                                          |
+| :----: | :---: | ----: | ---: | ---: | ---: | :--------------------------------------------------------------------------------------------------------------------- |
+|  NVDA  |  Put  |  0.71 | 0.76 |    1 |   +5 | Rode the opening wave. Joined within the 2 mins of market opening.                                                     |
+|  SNOW  |  Put  |  1.80 | 1.79 |    1 |   -1 | Miss play on the trade exit. Should of used stop loss got whiplashed back into the red after being green for a moment. |
+
+Day PnL: +3.78
+Market Sentiment: Bearish. Spy & QQQ both were in the red at the time of making the trades.
+Key Lesson: Watch out for market whiplash. The options price changes faster than the stock price. Got caught due to mechanics. Try not to have this happen anymore by putting propper stop losses. 
