@@ -10,7 +10,7 @@ month="$(date +%B)"            # e.g., September
 ROOT="$(git rev-parse --show-toplevel)"
 
 # Year folder as a "bloom"
-YEAR_DIR="$ROOT/meadows/bloom-$year"
+YEAR_DIR="$ROOT/meadows/$year"
 DAILY_DIR="$YEAR_DIR/$month/Daily"
 DEST="$DAILY_DIR/$today_stamp.txt"
 
