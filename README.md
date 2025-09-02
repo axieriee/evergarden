@@ -34,7 +34,7 @@ The point is to give myself a cozy place to plant ideas and watch them grow.
 
 | Color | Swatch | Hex |
 |-------|--------|------|
-| Pink | <span style="display:inline-block;width:16px;height:16px;background:#fce1ec;border:1px solid #ccc;border-radius:3px;"></span> | `#fce1ec` |
-| Green | <span style="display:inline-block;width:16px;height:16px;background:#cfe8d5;border:1px solid #ccc;border-radius:3px;"></span> | `#cfe8d5` |
-| Lavender | <span style="display:inline-block;width:16px;height:16px;background:#d6c9f1;border:1px solid #ccc;border-radius:3px;"></span> | `#d6c9f1` |
-| Cream | <span style="display:inline-block;width:16px;height:16px;background:#faf3e0;border:1px solid #ccc;border-radius:3px;"></span> | `#faf3e0` |
+| Pink | <div style="width:16px;height:16px;background:#fce1ec;border:1px solid #ccc;border-radius:3px;"></div> | `#fce1ec` |
+| Green | <div style="width:16px;height:16px;background:#cfe8d5;border:1px solid #ccc;border-radius:3px;"></div> | `#cfe8d5` |
+| Lavender | <div style="width:16px;height:16px;background:#d6c9f1;border:1px solid #ccc;border-radius:3px;"></div> | `#d6c9f1` |
+| Cream | <div style="width:16px;height:16px;background:#faf3e0;border:1px solid #ccc;border-radius:3px;"></div> | `#faf3e0` |
