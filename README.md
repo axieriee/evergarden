@@ -32,6 +32,9 @@ The point is to give myself a cozy place to plant ideas and watch them grow.
 
 ## Current Palette
 
-| Pink | Green | Lavender | Cream |
-|------|-------|----------|-------|
-| `#fce1ec` | `#cfe8d5` | `#d6c9f1` | `#faf3e0` |
+| Color | Swatch | Hex |
+|-------|--------|------|
+| Pink | <span style="display:inline-block;width:16px;height:16px;background:#fce1ec;border:1px solid #ccc;border-radius:3px;"></span> | `#fce1ec` |
+| Green | <span style="display:inline-block;width:16px;height:16px;background:#cfe8d5;border:1px solid #ccc;border-radius:3px;"></span> | `#cfe8d5` |
+| Lavender | <span style="display:inline-block;width:16px;height:16px;background:#d6c9f1;border:1px solid #ccc;border-radius:3px;"></span> | `#d6c9f1` |
+| Cream | <span style="display:inline-block;width:16px;height:16px;background:#faf3e0;border:1px solid #ccc;border-radius:3px;"></span> | `#faf3e0` |
