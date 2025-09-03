@@ -1,7 +1,7 @@
 # September 2025 · starlight 
 
 ## Words & Quotes
-
+> "The garden will keep growing even if its only a little bit of water"
 
 ---
 
