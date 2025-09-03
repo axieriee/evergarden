@@ -3,8 +3,6 @@
 | Symbol |  Dir  | Entry | Exit | Size |  PnL   |                                 Notes                                  |
 | :----: | :---: | ----: | ---: | ---: | -----: | :--------------------------------------------------------------------- |
 |  AMD   |  Put  |  2.73 | 2.25 |    1 | -41.11 | Bad just terrible. Oh my god. DO NOT! DO NOT TRADE WITHOUT A COMPUTER. |
-|        |       |       |      |      |        |                                                                        |
-|        |       |       |      |      |        |                                                                        |
 
 Day PnL: -41.11
 Market Sentiment: Bearish
