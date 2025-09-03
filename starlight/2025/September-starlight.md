@@ -8,6 +8,7 @@
 ## Moods
 Anxious > getting calmer by the afternoon.
 Comfort in my litte garden!
+Suuupperrr sleepyy zzZzZZzz~ Wish I was sleeping on some puffy clounds rn
 
 ----
 
@@ -24,3 +25,5 @@ Comfort in my litte garden!
 ---
 
 ## Seeds
+Look for some keyboard ideas soon. Time to get started on a new build! 
+Trying out my linux laptop more, haven't really used it much after swapping it to Endeavour OS. 
