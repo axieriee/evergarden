@@ -9,6 +9,7 @@
 Anxious > getting calmer by the afternoon.
 Comfort in my litte garden!
 Suuupperrr sleepyy zzZzZZzz~ Wish I was sleeping on some puffy clounds rn
+Sadness... heart is extremely heavy today due to trading.. 
 
 ----
 
@@ -16,6 +17,9 @@ Suuupperrr sleepyy zzZzZZzz~ Wish I was sleeping on some puffy clounds rn
 | Rosewater | Mint Leaf | Lilac Mist | Vanilla Cream |
 |-----------|-----------|------------|---------------|
 | `#fce1ec` | `#cfe8d5` | `#d6c9f1`  | `#faf3e0`     |
+
+Mauve - `#91819f` 
+> purple sorrows
 
 ---
 
