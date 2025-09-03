@@ -1,0 +1,9 @@
+=== 2025-09-03 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL   |                                              Notes                                               |
+| :----: | :---: | ----: | ---: | ---: | -----: | :----------------------------------------------------------------------------------------------- |
+|  TSLA  |  Put  |  3.50 | 3.05 |    1 | -45.11 | Gave the right prediction. Entered at the wrong time and got faked out by a sudden green candle. |
+
+Day PnL: -45.11
+Market Sentiment: Bearish
+Key Lesson: Look out for consolidation. Don't enter trades mid candle. Try to buy contracts on candle opening/closing never in between.
