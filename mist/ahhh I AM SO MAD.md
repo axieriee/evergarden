@@ -1,0 +1,4 @@
+akdhjkasjkd ajhajaj fjb sdbj gaahhhhh... fuck these losses hurt so god damn much. When I thought I was doing a bunch of learning processing experimenting during august. 
+I wanted to push the September to prove it wasnt just a fluke. THats what its starting to look like....geeeezz this is so fucked man.
+Especially TWICE in a row you. first time sure on my phone whatever that was dumb. AT MY COMPTUER WHAT DO YOU MEAN. I READ IT RIGHT The chart how it was moving. 
+I waited and I still got a crushing defeat. gaahh all these emotions are getting to me. My girlfriend made me smile and I just feel sadness more than angry. What am I supposed to do... fuck
