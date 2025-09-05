@@ -2,6 +2,7 @@
 
 ## Words & Quotes
 > "The garden will keep growing even if its only a little bit of water"
+> "That was the day I knew I wasn't just play trading - I became a trader"
 
 ---
 
@@ -10,6 +11,7 @@ Anxious > getting calmer by the afternoon.
 Comfort in my litte garden!
 Suuupperrr sleepyy zzZzZZzz~ Wish I was sleeping on some puffy clounds rn
 Sadness... heart is extremely heavy today due to trading.. 
+Firework shining in the sky
 
 ----
 
@@ -20,14 +22,17 @@ Sadness... heart is extremely heavy today due to trading..
 
 Mauve - `#91819f` 
 > purple sorrows
+Lavender Mist - `#e6e6fa`
+> clarity after the storm
 
 ---
 
 ## Media & Inspiration
-
+Brazilian Phonk gets me HYPE
 
 ---
 
 ## Seeds
 Look for some keyboard ideas soon. Time to get started on a new build! 
-Trying out my linux laptop more, haven't really used it much after swapping it to Endeavour OS. 
+Trying out my linux laptop more, haven't really used it much after swapping it to Endeavour OS.
+Basking in the glory of my trading achievement. 
