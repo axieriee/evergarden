@@ -1,0 +1,9 @@
+=== 2025-09-05 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL   |                Notes                |
+| :----: | :---: | ----: | ---: | ---: | -----: | :---------------------------------- |
+|  TSLA  | Call  |  1.21 | 1.73 |    1 | +51.89 | Phenominal dicipline and execution. |
+
+Day PnL: +51.89 / +15.37%
+Market Sentiment: Slightly bullish in the morning
+Key Lesson: Played to perfection. The dicipline and all. Saw uptrend in minute 1. Rode the wave from the start of minute 1 to 2. Exit on end of minute 2
