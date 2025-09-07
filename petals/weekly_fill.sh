@@ -18,7 +18,7 @@ year="$(date -d "$week_start" +%Y)"
 month="$(date -d "$week_start" +%B)"
 
 ROOT="$(git rev-parse --show-toplevel)"
-YEAR_DIR="$ROOT/meadows/bloom-$year"
+YEAR_DIR="$ROOT/meadows/$year"
 WEEKLY_DIR="$YEAR_DIR/$month/Weekly"
 DRAFT="$WEEKLY_DIR/${month}-W${iso_week}.md"
 

@@ -21,7 +21,7 @@ start_human=$(date -d "$week_start" +"%b %-d, %Y")
 end_human=$(date -d "$week_end"   +"%b %-d, %Y")
 
 ROOT="$(git rev-parse --show-toplevel)"
-YEAR_DIR="$ROOT/meadows/bloom-$year"
+YEAR_DIR="$ROOT/meadows/$year"
 WEEKLY_DIR="$YEAR_DIR/$month/Weekly"
 DEST="$WEEKLY_DIR/${month}-W${iso_week}.md"
 
