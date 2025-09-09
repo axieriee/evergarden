@@ -1,0 +1,9 @@
+=== 2025-09-09 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL  |                                   Notes                                   |
+| :----: | :---: | ----: | ---: | ---: | ----: | :------------------------------------------------------------------------ |
+|  NVDA  |  Put  |  0.56 | 0.51 |    1 | -5.11 | Took a pretty uncertain trade. Good use of stop loss cut it off at -5-7%. |
+
+Day PnL: -5.11 (-1.45%)
+Market Sentiment: Pretty stagnant throughout the day
+Key Lesson: Watch out for "fake" volume after long candles. Keep using the stop loss to reduce losses to not get very big. 
