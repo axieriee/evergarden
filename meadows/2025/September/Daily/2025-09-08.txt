@@ -1,0 +1,9 @@
+=== 2025-09-08 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL   |                                                           Notes                                                            |
+| :----: | :---: | ----: | ---: | ---: | -----: | :------------------------------------------------------------------------------------------------------------------------- |
+|  AMD   |  Put  |  1.04 | 0.67 |    1 | -37.11 | Took a trade way too early with no confirmation. And hope held for too long. Didnt back out of the trade when I should of. |
+
+Day PnL: -37.11 (-9.53%)
+Market Sentiment: Pretty stagnant not many big movers on this day.
+Key Lesson: Set stricted stop losses. Find a better way to go about it TurboTrader on Web doesn't let me make custom stops. Stop hope holding. Its causing lots of p&l losses.
