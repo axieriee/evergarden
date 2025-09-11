@@ -11,3 +11,6 @@ Market Sentiment: Bearish
 Key Lesson: Getting faked out by order book really hurts when taking a "reversal" trade like that. I did notice the stock steadily falling should of stayed
 bearish instead of going for a reversal gamble trade. Great 3rd trade scalp. Used a low cost option to run the idea by and commit to my decision.
 (Test trade on reading volume & order book)
+
+What happened on the trade: AMD was retesting the VWAP price. Doing a slow resistant fall down a couple cents. Order book I noticed there were 2 sells at a low point
+1k volume each of them. Causing sellers to gain momentum. As i look at the chart a few minutes later the price fell for 3 more candles. But great enter and exit nonetheless.
