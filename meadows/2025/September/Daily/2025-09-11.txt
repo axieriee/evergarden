@@ -4,8 +4,10 @@
 | :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------------------------------------------------------------------------------------------ |
 |  AMD   |  Put  |  1.66 | 1.79 |    1 |  +13 | Really good setup. Using phone chart over desktop. Since its more reactive to whats happening. Nice trade!                      |
 |  AMD   | Call  |  1.14 | 1.04 |    1 |  -10 | Gahhh got faked out by sudden buyer power. Instead I should of kept bearish since the market sentiment was bearish for the day. |
+|  AMD   |  Put  |  0.31 | 0.32 |    1 |   +1 | Quick in and out on AMD. Big sell volume. Took a low ~1 dollar profit on a 30 dollar contract. Not bad                          |
 
-Day PnL: +2.78 (+0.78%)
+Day PnL: +3.67 (+0.99)
 Market Sentiment: Bearish
 Key Lesson: Getting faked out by order book really hurts when taking a "reversal" trade like that. I did notice the stock steadily falling should of stayed
-bearish instead of going for a reversal gamble trade.
+bearish instead of going for a reversal gamble trade. Great 3rd trade scalp. Used a low cost option to run the idea by and commit to my decision.
+(Test trade on reading volume & order book)
