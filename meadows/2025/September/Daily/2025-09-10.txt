@@ -1,0 +1,9 @@
+=== YYYY-MM-DD ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                              Notes                              |
+| :----: | :---: | ----: | ---: | ---: | ---: | :-------------------------------------------------------------- |
+|  NVDA  | Call  |  1.37 | 1.44 |    1 |   +9 | Solid trade got in and got out. Only traded once after the win. |
+
+Day PnL: +9 (Unsure %)
+Market Sentiment: Unknown
+Key Lesson: Pretty solid trade. Didnt get greedy after the 1 win. 
