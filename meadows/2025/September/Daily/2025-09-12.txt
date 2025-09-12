@@ -1,0 +1,10 @@
+=== 2025-09-12 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                            Notes                                             |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------------------------------------------------------- |
+|  AMD   |  Put  |  0.52 | 0.54 |    1 |   +2 | Solid ORB trade. Sucks the stock moved slightly so I lost a couple dollars but still a win.  |
+|  TSLA  |  Put  |  2.03 | 1.32 |    1 |  -71 | Went against my rules and tried to go for a reversal when I should of stayed on the uptrend. |
+
+Day PnL: -69.22 (-18.56%)
+Market Sentiment: Bullish trend on TSLA. Bearish on AMD.
+Key Lesson: Stop going against rules. I keep breaking my rules on trading just because it "might" be something. I need to stop doing that.
