@@ -1,8 +1,8 @@
 === 2025-09-17 ===
 
-| Symbol |  Dir  | Entry | Exit | Size | PnL  | Notes |
-| :----: | :---: | ----: | ---: | ---: | ---: | :---- |
-|  NVDA  | Put   | 2.60  | 2.77 |  1   | +16.89 | Getting better at exiting. Took the +5% and exited not holding to be caught in a reversal mid candle. |
+| Symbol |  Dir  | Entry | Exit | Size |  PnL   |                                                 Notes                                                 |
+| :----: | :---: | ----: | ---: | ---: | -----: | :---------------------------------------------------------------------------------------------------- |
+|  NVDA  |  Put  |  2.60 | 2.77 |    1 | +16.89 | Getting better at exiting. Took the +5% and exited not holding to be caught in a reversal mid candle. |
 
 Day PnL: +16.89 (+5.62%)
 Market Sentiment: SPY and QQQ are bearish by a couple .~~%
