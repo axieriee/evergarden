@@ -1,0 +1,9 @@
+=== 2025-09-18 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL  |                                      Notes                                       |
+| :----: | :---: | ----: | ---: | ---: | ----: | :------------------------------------------------------------------------------- |
+|  AMD   |  Put  |  1.69 | 1.76 |    1 | +6.89 | Clean and easy. Exited once the 5% was hit no noticable volume to keep trailing. |
+
+Day PnL: +6.89 (2.07%)
+Market Sentiment: SPY and QQQ Are bullish. Been green all morning - current time 12:07pm
+Key Lesson: Getting the hang of exiting at the right time. Dont worry about "losing" extra points. 5% is very worth it.
