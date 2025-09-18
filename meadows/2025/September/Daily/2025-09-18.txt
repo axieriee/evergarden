@@ -3,7 +3,9 @@
 | Symbol |  Dir  | Entry | Exit | Size |  PnL  |                                      Notes                                       |
 | :----: | :---: | ----: | ---: | ---: | ----: | :------------------------------------------------------------------------------- |
 |  AMD   |  Put  |  1.69 | 1.76 |    1 | +6.89 | Clean and easy. Exited once the 5% was hit no noticable volume to keep trailing. |
+|  NVDA  |  Put  |  0.84 | 0.79 |    1 | -5.20 | Held for too long. Should of played the scalp and taken the 1% green.            |
 
 Day PnL: +6.89 (2.07%)
 Market Sentiment: SPY and QQQ Are bullish. Been green all morning - current time 12:07pm
-Key Lesson: Getting the hang of exiting at the right time. Dont worry about "losing" extra points. 5% is very worth it.
+Key Lesson: Getting the hang of exiting at the right time. Dont worry about "losing" extra points. 5% is very worth it. Made the mistake of holding while scalping.
+Need to learn how to scalp better in the intraday. Could of gone better if I exited but I was doing too much hoping. That was my mistake.
