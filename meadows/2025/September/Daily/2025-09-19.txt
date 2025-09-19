@@ -1,0 +1,10 @@
+=== 2025-09-19 ===
+
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                    Notes                    |
+| :----: | :---: | ----: | ---: | ---: | ---: | :------------------------------------------ |
+|  AMD   |  Put  |  1.10 | 1.14 |    1 |   +4 | Quick scalp on price slowly falling.        |
+|  AMD   | Call  |  1.21 | 1.27 |    1 |   +6 | Call on the VWAP spike after pushing above. |
+
+Day PnL: +9.78 (2.93%)
+Market Sentiment: SPY and QQQ were green this morning (10:04am). AMD was very stagnant at time of trade. 
+Key Lesson: Great exits on both trades. Catching not only a Put but a Call as well on a stagnant stock. Great jobb!! Dont trade anymore today.
