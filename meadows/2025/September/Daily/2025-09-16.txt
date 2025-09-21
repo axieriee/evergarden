@@ -1,9 +1,9 @@
 === YYYY-MM-DD ===
 
-| Symbol |  Dir  | Entry | Exit | Size | PnL  | Notes |
-| :----: | :---: | ----: | ---: | ---: | ---: | :---- |
-|  AMD   | Put   | 1.64  | 1.70 | 1    | +6 | Great entry and exit took a small +6 which is good |
-|  AMD   | Put   | 1.05   | 1.01 | 1    | -4   | I dont remember too well what had happened. I think I entered a trade too early without confirmation. However exited before the loss got out of hand which is good      |
+| Symbol |  Dir  | Entry | Exit | Size | PnL  |                                                                               Notes                                                                                |
+| :----: | :---: | ----: | ---: | ---: | ---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  AMD   |  Put  |  1.64 | 1.70 |    1 |   +6 | Great entry and exit took a small +6 which is good                                                                                                                 |
+|  AMD   |  Put  |  1.05 | 1.01 |    1 |   -4 | I dont remember too well what had happened. I think I entered a trade too early without confirmation. However exited before the loss got out of hand which is good |
 
 Day PnL: +1.78 (+0.60%)
 Market Sentiment: Unknown
