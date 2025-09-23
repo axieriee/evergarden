@@ -1,0 +1,10 @@
+=== 2025-09-23 ===
+
+| Symbol |  Dir  | Entry | Exit | Size |  PnL   |                                                           Notes                                                            |
+| :----: | :---: | ----: | ---: | ---: | -----: | :------------------------------------------------------------------------------------------------------------------------- |
+|  NVDA  |  Put  |  2.44 | 2.63 |    1 | +18.89 | Good trade on opening.                                                                                                     |
+|  NVDA  |  Put  |  0.62 | 0.64 |    1 |  +1.89 | May have held for "too" long but I was confident in market down trend. Held until orb was retested and broken. Clean exit. |
+
+Day PnL: +20.78 (+6.05%)
+Market Sentiment: NVDA is very bearish today. SPY is stagnant (10:08am) QQQ down 20% at time of trade.
+Key Lesson: Getting more confident in my trades. Always a good sign!!
