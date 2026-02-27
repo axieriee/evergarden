@@ -1,0 +1,78 @@
+{
+  "FromDate": "08/27/2025",
+  "ToDate": "02/27/2026",
+  "PendingTransactions": [
+    {
+      "Description": "LUCID TRADING 302-4801399, NJ, US",
+      "Date": "02/26/2026",
+      "Withdrawal": "",
+      "Deposit": ""
+    }
+  ],
+  "PostedTransactions": [
+    {
+      "CheckNumber": null,
+      "Description": "LUCID TRADING 973-9457579",
+      "Date": "02/27/2026",
+      "RunningBalance": "$144.41",
+      "Withdrawal": "$65.00",
+      "Deposit": "",
+      "Type": "VISA"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "ATAS LLC Riga",
+      "Date": "02/19/2026",
+      "RunningBalance": "$209.41",
+      "Withdrawal": "$106.69",
+      "Deposit": "",
+      "Type": "VISA"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "Funds Transfer to Brokerage ...342",
+      "Date": "02/12/2026",
+      "RunningBalance": "$316.10",
+      "Withdrawal": "$183.90",
+      "Deposit": "",
+      "Type": "TRANSFER"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "Funds Transfer to Brokerage ...342",
+      "Date": "02/12/2026",
+      "RunningBalance": "$500.00",
+      "Withdrawal": "$1,000.00",
+      "Deposit": "",
+      "Type": "TRANSFER"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "ZELLE FROM KEIBER MEJIA",
+      "Date": "02/12/2026",
+      "RunningBalance": "$1,500.00",
+      "Withdrawal": "",
+      "Deposit": "$1,010.00",
+      "Type": "CREDIT"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "Funds Transfer to Brokerage ...342",
+      "Date": "02/11/2026",
+      "RunningBalance": "$490.00",
+      "Withdrawal": "$2,010.00",
+      "Deposit": "",
+      "Type": "TRANSFER"
+    },
+    {
+      "CheckNumber": null,
+      "Description": "ZELLE FROM KEIBER MEJIA",
+      "Date": "02/10/2026",
+      "RunningBalance": "$2,500.00",
+      "Withdrawal": "",
+      "Deposit": "$2,500.00",
+      "Type": "CREDIT"
+    }
+  ],
+  "TotalPendingCheckAndOtherCredit": "$0.00"
+}
